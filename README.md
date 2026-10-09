@@ -119,3 +119,5 @@ Errors will mention an unknown queryId or features. To re-extract:
 
 Linux + Python 3.14, October 2026 — full export of a 20,700-follower account,
 resumable after interruption, multi-session rotation, invalid-session detection.
+
+Created by Leshipai
