@@ -5,7 +5,7 @@ JSONL. Handles accounts of any size (tested on 20,000+ followers).
  
 
 > [!WARNING]
-> The two cookies you provide give the script **full access to your X account**.
+> The two cookies you provide give the script * are personal and shouldn't be shared publicly.
 > Never share them. Rotate the session after heavy use
 > (X → Settings → Security and access → Log out of all other sessions).
 > Using this script may violate X's Terms of Service , you are responsible for
