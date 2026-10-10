@@ -2,7 +2,7 @@
 
 Export the **complete follower list of any public X (Twitter) account** to CSV +
 JSONL. Handles accounts of any size (tested on 20,000+ followers).
-
+ 
 
 > [!WARNING]
 > The two cookies you provide give the script **full access to your X account**.
