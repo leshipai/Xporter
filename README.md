@@ -23,6 +23,10 @@ Python 3.8+ and an X account you are logged into. That's all.
 3. Copy the **Value** of two cookies:
    - `auth_token` - 40-character hex string
    - `ct0` -  long hex string (may end in `%0A`)
+  
+## Video Tut
+
+https://github.com/user-attachments/assets/39842be6-5c4c-4f5d-83fe-69e7760279b2
 
 ## Usage
 
