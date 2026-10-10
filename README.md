@@ -27,10 +27,10 @@ Python 3.8+ and an X account you are logged into. That's all.
 ## Usage
 
 ```bash
-# Interactive — the script asks for the two values itself
+# Interactive , the script asks for the two values itself
 python3 x_follower_export.py --target @anyhandle
 
-# Non-interactive — pass the session as an argument
+# Non-interactive , pass the session as an argument
 python3 x_follower_export.py --target @anyhandle \
     --cookie "auth_token=...; ct0=..."
 
@@ -72,7 +72,7 @@ session, ≈ 30–40 min with four.
 | `--out DIR` | output directory (default: `./followers_<handle>`) |
 | `--page-size {50,100,200}` | users requested per page (X caps actual page size at ~50–70) |
 
-No TTY (cron, pipes)? Then `--cookie` or `--cookie-file` is required —
+No TTY (cron, pipes)? Then `--cookie` or `--cookie-file` is required ,
 the interactive prompt is only shown in a real terminal.
 
 ## Output
@@ -87,7 +87,7 @@ followers_<handle>/
 Columns: `user_id, screen_name, name, location, bio, website, followers_count,
 following_count, tweets_count, account_created_at, is_blue_verified, protected, avatar`
 
-Interrupted? **Ctrl+C is always safe** — progress is flushed after every page.
+Interrupted? **Ctrl+C is always safe** , progress is flushed after every page.
 Rerun the exact same command and it resumes from the saved cursor; if the
 export already finished, rerunning detects that and does nothing.
 
@@ -117,7 +117,5 @@ Errors will mention an unknown queryId or features. To re-extract:
 
 ## Tested on
 
-Linux + Python 3.14, October 2026 — full export of a 20,700-follower account,
+Linux + Python 3.14, October 2026 , full export of a 20,700-follower account,
 resumable after interruption, multi-session rotation, invalid-session detection.
-
-Created by Leshipai
