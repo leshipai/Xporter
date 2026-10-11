@@ -123,3 +123,8 @@ Errors will mention an unknown queryId or features. To re-extract:
 
 Linux + Python 3.14, October 2026 , full export of a 20,700-follower account,
 resumable after interruption, multi-session rotation, invalid-session detection.
+
+
+## New Changes
+
+I added x_export script which works similarly but now adds the option of following and followers as well as being interactive.
