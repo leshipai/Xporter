@@ -28,10 +28,6 @@ Python 3.8+ and an X account you are logged into. That's all.
 
 https://github.com/user-attachments/assets/39842be6-5c4c-4f5d-83fe-69e7760279b2
 
-## What's New
-
-I actually added x_export script which works similarly to the above tutorial. This script allows the user to choose whether its the Follower's or Following list they need. Its more interactive meaning that although you may its not a must you include the flags the script will ask for them interactively.
-
 ## Usage
 
 ```bash
@@ -127,3 +123,8 @@ Errors will mention an unknown queryId or features. To re-extract:
 
 Linux + Python 3.14, October 2026 , full export of a 20,700-follower account,
 resumable after interruption, multi-session rotation, invalid-session detection.
+
+
+# What's New
+
+I actually added x_export script which works similarly to the above tutorial. This script allows the user to choose whether its the Follower's or Following list they need. Its more interactive meaning that although you may its not a must you include the flags the script will ask for them interactively.
