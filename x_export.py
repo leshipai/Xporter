@@ -465,7 +465,7 @@ def main():
     if not args.target:
         if not tty:
             sys.exit("ERROR: --target is required in non-interactive runs.")
-        args.target = _ask("X account to export (e.g. @OSINT_Tactical): ")
+        args.target = _ask("X account to export (e.g. @leshipai): ")
         if not args.target:
             sys.exit("ERROR: empty target.")
 
